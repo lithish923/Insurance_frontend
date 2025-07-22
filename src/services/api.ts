@@ -1,6 +1,6 @@
 import { MedicalFormData, AgricultureFormData, PropertyFormData, PredictionResult } from '../types/insurance';
 
-const API_BASE_URL = 'https://insurance-predictor-19ci.onrender.com:5000';
+const API_BASE_URL = 'https://insurance-predictor-19ci.onrender.com';
 
 // Helper function to check if backend is running
 const checkBackendConnection = async (): Promise<boolean> => {
